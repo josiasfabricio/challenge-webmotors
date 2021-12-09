@@ -5,8 +5,9 @@ target 'ChallengeWebmotors' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Alamofire'
-  pod 'ObjectMapper'
-  pod 'R.swift', '~> 5.0.3'
+  pod 'AlamofireObjectMapper'
+  pod 'ObjectMapper', '~> 3.5.1'
+  #pod 'R.swift', '~> 5.0.3'
 
   # Pods for ChallengeWebmotors
 

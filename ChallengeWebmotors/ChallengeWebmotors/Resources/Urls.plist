@@ -2,13 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>baseURL</key>
+	<string>https://desafioonline.webmotors.com.br/api/OnlineChallenge</string>
 	<key>getVehicles</key>
-	<string></string>
+	<string>/Vehicles</string>
 	<key>getVersion</key>
-	<string></string>
+	<string>/Version</string>
 	<key>getMake</key>
-	<string></string>
+	<string>/Make</string>
 	<key>getModel</key>
-	<string></string>
+	<string>/Model</string>
 </dict>
 </plist>
