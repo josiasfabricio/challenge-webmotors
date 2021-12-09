@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8573290807CED90D634B5379 /* Pods_ChallengeWebmotorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29354C5B50BB987B9542CCB /* Pods_ChallengeWebmotorsTests.framework */; };
+		8A4D57F94862C90233784A04 /* Pods_ChallengeWebmotors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2292F6CFFBFC72FCAE9065F0 /* Pods_ChallengeWebmotors.framework */; };
+		A0060D432761B58D00B42A06 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0060D422761B58D00B42A06 /* R.generated.swift */; };
+		A0060D442761B58D00B42A06 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0060D422761B58D00B42A06 /* R.generated.swift */; };
+		A0060D452761B58D00B42A06 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0060D422761B58D00B42A06 /* R.generated.swift */; };
+		A06C0D542761A92C00FCA56B /* Urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = A06C0D532761A92C00FCA56B /* Urls.plist */; };
+		A06C0D552761A92C00FCA56B /* Urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = A06C0D532761A92C00FCA56B /* Urls.plist */; };
+		A06C0D562761A92C00FCA56B /* Urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = A06C0D532761A92C00FCA56B /* Urls.plist */; };
+		A06C0D582761A95100FCA56B /* UrlsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C0D572761A95100FCA56B /* UrlsInfo.swift */; };
+		A06C0D592761A95100FCA56B /* UrlsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C0D572761A95100FCA56B /* UrlsInfo.swift */; };
+		A06C0D5A2761A95100FCA56B /* UrlsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C0D572761A95100FCA56B /* UrlsInfo.swift */; };
 		A0DE59B42761A14B00977F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59B32761A14B00977F50 /* AppDelegate.swift */; };
 		A0DE59B62761A14B00977F50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59B52761A14B00977F50 /* SceneDelegate.swift */; };
 		A0DE59B82761A14B00977F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59B72761A14B00977F50 /* ViewController.swift */; };
@@ -16,6 +27,7 @@
 		A0DE59CB2761A14C00977F50 /* ChallengeWebmotorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59CA2761A14C00977F50 /* ChallengeWebmotorsTests.swift */; };
 		A0DE59D52761A14C00977F50 /* ChallengeWebmotorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59D42761A14C00977F50 /* ChallengeWebmotorsUITests.swift */; };
 		A0DE59D72761A14C00977F50 /* ChallengeWebmotorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59D62761A14C00977F50 /* ChallengeWebmotorsUITestsLaunchTests.swift */; };
+		DC0B26E442A62252A8AB6223 /* Pods_ChallengeWebmotors_ChallengeWebmotorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E7A336D31C19A7EAD4FD9 /* Pods_ChallengeWebmotors_ChallengeWebmotorsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2292F6CFFBFC72FCAE9065F0 /* Pods_ChallengeWebmotors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeWebmotors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4E14BFD228AE7F1ED3CB60 /* Pods-ChallengeWebmotors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotors.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotors/Pods-ChallengeWebmotors.debug.xcconfig"; sourceTree = "<group>"; };
+		444E7A336D31C19A7EAD4FD9 /* Pods_ChallengeWebmotors_ChallengeWebmotorsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeWebmotors_ChallengeWebmotorsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5652C6E87B036C16A28E761E /* Pods-ChallengeWebmotorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotorsTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotorsTests/Pods-ChallengeWebmotorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91EB120FAF605CF7FEA72217 /* Pods-ChallengeWebmotorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotorsTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotorsTests/Pods-ChallengeWebmotorsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E728C6B3762F9406724FBB3 /* Pods-ChallengeWebmotors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotors.release.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotors/Pods-ChallengeWebmotors.release.xcconfig"; sourceTree = "<group>"; };
+		A0060D422761B58D00B42A06 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		A06C0D532761A92C00FCA56B /* Urls.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Urls.plist; sourceTree = "<group>"; };
+		A06C0D572761A95100FCA56B /* UrlsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsInfo.swift; sourceTree = "<group>"; };
 		A0DE59B02761A14B00977F50 /* ChallengeWebmotors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeWebmotors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DE59B32761A14B00977F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0DE59B52761A14B00977F50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,9 @@
 		A0DE59D02761A14C00977F50 /* ChallengeWebmotorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeWebmotorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DE59D42761A14C00977F50 /* ChallengeWebmotorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWebmotorsUITests.swift; sourceTree = "<group>"; };
 		A0DE59D62761A14C00977F50 /* ChallengeWebmotorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWebmotorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C021BD873373E2DADBD73545 /* Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC0AF7B0160AB53BABFC93D1 /* Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E29354C5B50BB987B9542CCB /* Pods_ChallengeWebmotorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeWebmotorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4D57F94862C90233784A04 /* Pods_ChallengeWebmotors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8573290807CED90D634B5379 /* Pods_ChallengeWebmotorsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0B26E442A62252A8AB6223 /* Pods_ChallengeWebmotors_ChallengeWebmotorsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A06C0D522761A8D500FCA56B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0060D422761B58D00B42A06 /* R.generated.swift */,
+				A0DE59BC2761A14C00977F50 /* Assets.xcassets */,
+				A06C0D532761A92C00FCA56B /* Urls.plist */,
+				A06C0D572761A95100FCA56B /* UrlsInfo.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A0DE59A72761A14B00977F50 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				A0DE59C92761A14C00977F50 /* ChallengeWebmotorsTests */,
 				A0DE59D32761A14C00977F50 /* ChallengeWebmotorsUITests */,
 				A0DE59B12761A14B00977F50 /* Products */,
+				D7A8C34C720EC25F6678B860 /* Pods */,
+				E0F7FAEC37E659C95F5FE078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +139,13 @@
 		A0DE59B22761A14B00977F50 /* ChallengeWebmotors */ = {
 			isa = PBXGroup;
 			children = (
+				A0DE59C12761A14C00977F50 /* Info.plist */,
+				A06C0D522761A8D500FCA56B /* Resources */,
 				A0DE59B32761A14B00977F50 /* AppDelegate.swift */,
 				A0DE59B52761A14B00977F50 /* SceneDelegate.swift */,
 				A0DE59B72761A14B00977F50 /* ViewController.swift */,
 				A0DE59B92761A14B00977F50 /* Main.storyboard */,
-				A0DE59BC2761A14C00977F50 /* Assets.xcassets */,
 				A0DE59BE2761A14C00977F50 /* LaunchScreen.storyboard */,
-				A0DE59C12761A14C00977F50 /* Info.plist */,
 			);
 			path = ChallengeWebmotors;
 			sourceTree = "<group>";
@@ -127,6 +167,29 @@
 			path = ChallengeWebmotorsUITests;
 			sourceTree = "<group>";
 		};
+		D7A8C34C720EC25F6678B860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E14BFD228AE7F1ED3CB60 /* Pods-ChallengeWebmotors.debug.xcconfig */,
+				9E728C6B3762F9406724FBB3 /* Pods-ChallengeWebmotors.release.xcconfig */,
+				CC0AF7B0160AB53BABFC93D1 /* Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.debug.xcconfig */,
+				C021BD873373E2DADBD73545 /* Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.release.xcconfig */,
+				5652C6E87B036C16A28E761E /* Pods-ChallengeWebmotorsTests.debug.xcconfig */,
+				91EB120FAF605CF7FEA72217 /* Pods-ChallengeWebmotorsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0F7FAEC37E659C95F5FE078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2292F6CFFBFC72FCAE9065F0 /* Pods_ChallengeWebmotors.framework */,
+				444E7A336D31C19A7EAD4FD9 /* Pods_ChallengeWebmotors_ChallengeWebmotorsUITests.framework */,
+				E29354C5B50BB987B9542CCB /* Pods_ChallengeWebmotorsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0DE59DA2761A14C00977F50 /* Build configuration list for PBXNativeTarget "ChallengeWebmotors" */;
 			buildPhases = (
+				F1203295512D274166B81BCE /* [CP] Check Pods Manifest.lock */,
+				A06C0D5B2761AB0200FCA56B /* R Swift */,
 				A0DE59AC2761A14B00977F50 /* Sources */,
 				A0DE59AD2761A14B00977F50 /* Frameworks */,
 				A0DE59AE2761A14B00977F50 /* Resources */,
+				B0E1A6D5F1A042E3001FA5EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0DE59DD2761A14C00977F50 /* Build configuration list for PBXNativeTarget "ChallengeWebmotorsTests" */;
 			buildPhases = (
+				5A4213C302C895FEDC7AC7E4 /* [CP] Check Pods Manifest.lock */,
 				A0DE59C22761A14C00977F50 /* Sources */,
 				A0DE59C32761A14C00977F50 /* Frameworks */,
 				A0DE59C42761A14C00977F50 /* Resources */,
@@ -169,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0DE59E02761A14C00977F50 /* Build configuration list for PBXNativeTarget "ChallengeWebmotorsUITests" */;
 			buildPhases = (
+				D4CC4C15B3263759368423BC /* [CP] Check Pods Manifest.lock */,
 				A0DE59CC2761A14C00977F50 /* Sources */,
 				A0DE59CD2761A14C00977F50 /* Frameworks */,
 				A0DE59CE2761A14C00977F50 /* Resources */,
+				80F8F425F095824B7E2E7487 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +302,7 @@
 			files = (
 				A0DE59C02761A14C00977F50 /* LaunchScreen.storyboard in Resources */,
 				A0DE59BD2761A14C00977F50 /* Assets.xcassets in Resources */,
+				A06C0D542761A92C00FCA56B /* Urls.plist in Resources */,
 				A0DE59BB2761A14B00977F50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06C0D552761A92C00FCA56B /* Urls.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +319,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06C0D562761A92C00FCA56B /* Urls.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A4213C302C895FEDC7AC7E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeWebmotorsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F8F425F095824B7E2E7487 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06C0D5B2761AB0200FCA56B /* R Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "R Swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		B0E1A6D5F1A042E3001FA5EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeWebmotors/Pods-ChallengeWebmotors-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeWebmotors/Pods-ChallengeWebmotors-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeWebmotors/Pods-ChallengeWebmotors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CC4C15B3263759368423BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeWebmotors-ChallengeWebmotorsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1203295512D274166B81BCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeWebmotors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0DE59AC2761A14B00977F50 /* Sources */ = {
@@ -260,7 +456,9 @@
 			files = (
 				A0DE59B82761A14B00977F50 /* ViewController.swift in Sources */,
 				A0DE59B42761A14B00977F50 /* AppDelegate.swift in Sources */,
+				A0060D432761B58D00B42A06 /* R.generated.swift in Sources */,
 				A0DE59B62761A14B00977F50 /* SceneDelegate.swift in Sources */,
+				A06C0D582761A95100FCA56B /* UrlsInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +467,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0DE59CB2761A14C00977F50 /* ChallengeWebmotorsTests.swift in Sources */,
+				A06C0D592761A95100FCA56B /* UrlsInfo.swift in Sources */,
+				A0060D442761B58D00B42A06 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +476,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06C0D5A2761A95100FCA56B /* UrlsInfo.swift in Sources */,
 				A0DE59D52761A14C00977F50 /* ChallengeWebmotorsUITests.swift in Sources */,
 				A0DE59D72761A14C00977F50 /* ChallengeWebmotorsUITestsLaunchTests.swift in Sources */,
+				A0060D452761B58D00B42A06 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +636,7 @@
 		};
 		A0DE59DB2761A14C00977F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4E14BFD228AE7F1ED3CB60 /* Pods-ChallengeWebmotors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,13 +658,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.josiasfabricio.ChallengeWebmotors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A0DE59DC2761A14C00977F50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E728C6B3762F9406724FBB3 /* Pods-ChallengeWebmotors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,13 +687,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.josiasfabricio.ChallengeWebmotors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		A0DE59DE2761A14C00977F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5652C6E87B036C16A28E761E /* Pods-ChallengeWebmotorsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,7 +711,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.josiasfabricio.ChallengeWebmotorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeWebmotors.app/ChallengeWebmotors";
 			};
@@ -514,6 +719,7 @@
 		};
 		A0DE59DF2761A14C00977F50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EB120FAF605CF7FEA72217 /* Pods-ChallengeWebmotorsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,7 +736,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.josiasfabricio.ChallengeWebmotorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeWebmotors.app/ChallengeWebmotors";
 			};
@@ -538,6 +744,7 @@
 		};
 		A0DE59E12761A14C00977F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0AF7B0160AB53BABFC93D1 /* Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,7 +759,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.josiasfabricio.ChallengeWebmotorsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ChallengeWebmotors;
 			};
@@ -560,6 +767,7 @@
 		};
 		A0DE59E22761A14C00977F50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C021BD873373E2DADBD73545 /* Pods-ChallengeWebmotors-ChallengeWebmotorsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,7 +782,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.josiasfabricio.ChallengeWebmotorsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ChallengeWebmotors;
 			};
