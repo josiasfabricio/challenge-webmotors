@@ -25,12 +25,13 @@ class VehicleDataSource: VehicleDataSouceProtocol {
     func getVehicles(_ page: Int) {
         let url = "https://desafioonline.webmotors.com.br/api/OnlineChallenge/Vehicles?Page=\(page)"
         
-        Alamofire.request(url).responseJSON { (response) -> Void in
-            print(response)
-
+        Alamofire.request(url).responseJSON { response in
             if response.result.isSuccess {
-                //let resJson = JSON(responseObject.result.value!)
-                //self.delegate?.succesGetVehicles()
+                if let vehicles: [Vehicle] = Mapper<Vehicle>().mapArray(JSONObject: response.result.value){
+                    self.delegate?.sucessGetVehicles(response: vehicles)
+                }else{
+                    self.delegate?.failureGetVehicles()
+                }
             }
             if response.result.isFailure {
                 self.delegate?.failureGetVehicles()

@@ -7,7 +7,7 @@ target 'ChallengeWebmotors' do
   pod 'Alamofire'
   pod 'AlamofireObjectMapper'
   pod 'ObjectMapper', '~> 3.5.1'
-  #pod 'R.swift', '~> 5.0.3'
+  pod 'Kingfisher'
 
   # Pods for ChallengeWebmotors
 

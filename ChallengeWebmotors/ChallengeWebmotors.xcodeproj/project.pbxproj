@@ -10,9 +10,10 @@
 		8573290807CED90D634B5379 /* Pods_ChallengeWebmotorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29354C5B50BB987B9542CCB /* Pods_ChallengeWebmotorsTests.framework */; };
 		8A4D57F94862C90233784A04 /* Pods_ChallengeWebmotors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2292F6CFFBFC72FCAE9065F0 /* Pods_ChallengeWebmotors.framework */; };
 		A0060D482761B86200B42A06 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0060D472761B86200B42A06 /* Vehicle.swift */; };
-		A06C0D542761A92C00FCA56B /* Urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = A06C0D532761A92C00FCA56B /* Urls.plist */; };
-		A06C0D552761A92C00FCA56B /* Urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = A06C0D532761A92C00FCA56B /* Urls.plist */; };
-		A06C0D562761A92C00FCA56B /* Urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = A06C0D532761A92C00FCA56B /* Urls.plist */; };
+		A04F7E1A2762F336004B6987 /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F7E192762F336004B6987 /* VehicleTableViewCell.swift */; };
+		A04F7E1E2762FB05004B6987 /* VehicleTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F7E1D2762FB05004B6987 /* VehicleTableViewDataSource.swift */; };
+		A04F7E1F2762FB05004B6987 /* VehicleTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F7E1D2762FB05004B6987 /* VehicleTableViewDataSource.swift */; };
+		A04F7E202762FB05004B6987 /* VehicleTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F7E1D2762FB05004B6987 /* VehicleTableViewDataSource.swift */; };
 		A0DE59B42761A14B00977F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59B32761A14B00977F50 /* AppDelegate.swift */; };
 		A0DE59B62761A14B00977F50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59B52761A14B00977F50 /* SceneDelegate.swift */; };
 		A0DE59B82761A14B00977F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE59B72761A14B00977F50 /* ViewController.swift */; };
@@ -56,7 +57,8 @@
 		91EB120FAF605CF7FEA72217 /* Pods-ChallengeWebmotorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotorsTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotorsTests/Pods-ChallengeWebmotorsTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E728C6B3762F9406724FBB3 /* Pods-ChallengeWebmotors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeWebmotors.release.xcconfig"; path = "Target Support Files/Pods-ChallengeWebmotors/Pods-ChallengeWebmotors.release.xcconfig"; sourceTree = "<group>"; };
 		A0060D472761B86200B42A06 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
-		A06C0D532761A92C00FCA56B /* Urls.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Urls.plist; sourceTree = "<group>"; };
+		A04F7E192762F336004B6987 /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		A04F7E1D2762FB05004B6987 /* VehicleTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewDataSource.swift; sourceTree = "<group>"; };
 		A0DE59B02761A14B00977F50 /* ChallengeWebmotors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeWebmotors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DE59B32761A14B00977F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0DE59B52761A14B00977F50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,7 +110,6 @@
 		A06C0D522761A8D500FCA56B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A06C0D532761A92C00FCA56B /* Urls.plist */,
 				A0DE59BC2761A14C00977F50 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -144,6 +145,8 @@
 				A0DE59C12761A14C00977F50 /* Info.plist */,
 				A0DE59BE2761A14C00977F50 /* LaunchScreen.storyboard */,
 				A0DE59B92761A14B00977F50 /* Main.storyboard */,
+				A04F7E192762F336004B6987 /* VehicleTableViewCell.swift */,
+				A04F7E1D2762FB05004B6987 /* VehicleTableViewDataSource.swift */,
 				A0060D472761B86200B42A06 /* Vehicle.swift */,
 				A0F2D997276255E3007AA1E3 /* VehicleDataSource.swift */,
 				A0F2D9A327628AF9007AA1E3 /* VehicleViewModel.swift */,
@@ -312,7 +315,6 @@
 			files = (
 				A0DE59C02761A14C00977F50 /* LaunchScreen.storyboard in Resources */,
 				A0DE59BD2761A14C00977F50 /* Assets.xcassets in Resources */,
-				A06C0D542761A92C00FCA56B /* Urls.plist in Resources */,
 				A0DE59BB2761A14B00977F50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0F2D9A127626624007AA1E3 /* LaunchScreen.storyboard in Resources */,
-				A06C0D552761A92C00FCA56B /* Urls.plist in Resources */,
 				A0F2D99F2762660B007AA1E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0F2D9A227626624007AA1E3 /* LaunchScreen.storyboard in Resources */,
-				A06C0D562761A92C00FCA56B /* Urls.plist in Resources */,
 				A0F2D9A02762660B007AA1E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +448,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0F2D998276255E3007AA1E3 /* VehicleDataSource.swift in Sources */,
+				A04F7E1A2762F336004B6987 /* VehicleTableViewCell.swift in Sources */,
+				A04F7E1E2762FB05004B6987 /* VehicleTableViewDataSource.swift in Sources */,
 				A0F2D9A427628AF9007AA1E3 /* VehicleViewModel.swift in Sources */,
 				A0060D482761B86200B42A06 /* Vehicle.swift in Sources */,
 				A0DE59B82761A14B00977F50 /* ViewController.swift in Sources */,
@@ -460,6 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04F7E1F2762FB05004B6987 /* VehicleTableViewDataSource.swift in Sources */,
 				A0DE59CB2761A14C00977F50 /* ChallengeWebmotorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0DE59D52761A14C00977F50 /* ChallengeWebmotorsUITests.swift in Sources */,
+				A04F7E202762FB05004B6987 /* VehicleTableViewDataSource.swift in Sources */,
 				A0DE59D72761A14C00977F50 /* ChallengeWebmotorsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
