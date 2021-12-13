@@ -31,19 +31,10 @@ class VehicleTableViewCell: UITableViewCell {
             yearLabel.text = "\(vehicle?.yearFab ?? 1900)/\(vehicle?.yearModel ?? 1900)"
             colorLabel.text = vehicle?.color
             
-            img.kf.setImage(with: URL(string: (vehicle?.image)!), placeholder: UIImage(named: "vehicleDefault"), options: nil, progressBlock: nil, completionHandler: nil)
+            let imgHttps = vehicle?.image!.replacingOccurrences(of: "http", with: "https")
+            
+            img.kf.setImage(with: URL(string: imgHttps!), placeholder: UIImage(named: "vehicleDefault"), options: nil, progressBlock: nil, completionHandler: nil)
         }
-    }
-   
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
 }

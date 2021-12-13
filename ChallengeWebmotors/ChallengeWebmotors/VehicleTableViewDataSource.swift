@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class VehicleTableViewDataSource<CELL : UITableViewCell,T> : NSObject, UITableViewDataSource {
+class VehicleTableViewDataSource<CELL:UITableViewCell, T>: NSObject, UITableViewDataSource {
     
     private var cellIdentifier : String!
     private var items : [T]!
@@ -26,10 +26,12 @@ class VehicleTableViewDataSource<CELL : UITableViewCell,T> : NSObject, UITableVi
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! CELL
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! CELL
         
         let item = self.items[indexPath.row]
         self.configureCell(cell, item)
         return cell
     }
+    
+    
 }

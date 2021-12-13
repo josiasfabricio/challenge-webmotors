@@ -22,6 +22,7 @@ class VehicleViewModel: NSObject {
     override init() {
         super.init()
         self.dataSource = VehicleDataSource()
+        self.vehiclesData = []
         self.dataSource.delegate = self
     }
     
@@ -36,6 +37,8 @@ extension VehicleViewModel: VehicleDataSourceDelegate {
     }
     
     func sucessGetVehicles(response: [Vehicle]) {
-        self.vehiclesData = response
+        if !response.isEmpty {
+            self.vehiclesData += response
+        }
     }
 }
